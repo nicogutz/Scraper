@@ -1,3 +1,7 @@
+## Copyright:
+The data downloaded by this tool is copyrighted and is regularly registered with the US Library of Congress in the form of ExRx.net Offline Download. Do not modify, sell, or republish our content or tools in any way without the expressed written permission of ExRx.net. If you find other sites using our content, please feel free to contact us at feedback@exrx.net. We pass these matters to our copyright attorney who deals with these sorts of cases regularly.
+
+
 ## Scraping:
 However, access to a website can be revoked and become unauthorized, when the website owner sends
 a cease and desist letter to a party crawling or scraping the website (Craigslist Inc. v. 3Taps Inc. 2013;
@@ -14,9 +18,6 @@ https://digitalcommons.murraystate.edu/cgi/viewcontent.cgi?article=1071&context=
 
 https://lexing.be/de/le-scraping-est-il-legal/
 
-
-## Copyright:
-The data downloaded by this tool is copyrighted and is regularly registered with the US Library of Congress in the form of ExRx.net Offline Download. Do not modify, sell, or republish our content or tools in any way without the expressed written permission of ExRx.net. If you find other sites using our content, please feel free to contact us at feedback@exrx.net. We pass these matters to our copyright attorney who deals with these sorts of cases regularly.
 
 ## Fair Use:
 According to both Belgian and US Law, copyrighted data can be used for educational purposes:
