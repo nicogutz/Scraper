@@ -16,7 +16,7 @@ class DataScraper(scrapy.Spider):
         with open(os.path.dirname(__file__) + '/../links_new.json', 'r') as fr:
             urls = json.load(fr)
 
-        for url in urls:
+        for url in urls[:5]:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response, **kwargs):
@@ -64,7 +64,7 @@ class DataScraper(scrapy.Spider):
             force = None
             
         yield {
-            relative_dir_list[-1]: {
+            str(relative_dir_list[-2] + '/' + relative_dir_list[-1]): {
                 'name': response.css('[id="headerShell"] [class="page-title"]::text').extract_first(),
                 'utility': utility,
                 'mechanics': mechanics,
