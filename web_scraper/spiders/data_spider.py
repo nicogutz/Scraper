@@ -1,7 +1,6 @@
 import json
 import os
 import pathlib
-import shutil
 
 import scrapy
 import urllib3
@@ -27,8 +26,15 @@ class DataScraper(scrapy.Spider):
         for folder in relative_dir_list:
             joined_dir = joined_dir + folder + '/'
 
-        path = pathlib.Path(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'Images/', joined_dir))
-        path_str = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'Images/', joined_dir)
-        path.mkdir(parents=True, exist_ok=True)
-
-        video_url = response.css('video source::attr(src)').extract_first()
+        yield {
+            relative_dir_list[-1]: {
+                'name': response.css('video source::attr(src)').extract_first(),
+                'classification': response.css('video source::attr(src)').extract_first(),
+                'preparation': response.css('video source::attr(src)').extract_first(),
+                'execution': response.css('video source::attr(src)').extract_first(),
+                'comments': response.css('video source::attr(src)').extract_first(),
+                'target_muscles': response.css('video source::attr(src)').extract_first(),
+                'synergist_muscles': response.css('video source::attr(src)').extract_first(),
+                'video_url': joined_dir
+            }
+        }
