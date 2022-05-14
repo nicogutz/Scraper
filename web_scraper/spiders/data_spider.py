@@ -16,7 +16,7 @@ class DataScraper(scrapy.Spider):
         with open(os.path.dirname(__file__) + '/../links_new.json', 'r') as fr:
             urls = json.load(fr)
 
-        for url in urls[:5]:
+        for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response, **kwargs):
