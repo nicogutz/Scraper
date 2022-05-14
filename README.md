@@ -1,3 +1,39 @@
+## Scraping:
+Any illegal or fraudulent use of data obtained through Web Scraping is prohibited by several laws. The
+Computer Fraud and Abuse Act (CFAA) and its comparable state laws are the predominant legal basis for
+claims involving Web Scraping disputes. Among other provisions, the CFAA prohibits the intentional
+unauthorized access of a computer or access that exceeds authorization (18 U.S.C. § 1030(a) (2008))
+and provides for both civil and criminal penalties (18 U.S.C. § 1030(c) (2008)). As of now, approximately
+sixty legal opinions have addressed the application of the CFAA to Web Scraping. The majority of these
+opinions address the question of what constitutes unauthorized access under the law. This variety of
+opinions suggests that courts remain divided on this issue and little consensus has been reached over the
+last two decades regarding the application of CFAA to Web Scraping (Sellars 2018). Still, recent cases
+provide some guidance to researchers employing Web Scraping for data collection regarding their
+potential civil and criminal liability under the CFAA.
+Initially, many courts focused on whether a website’s “Terms of Use” or “Terms of Service” policy
+prohibited Web Scraping activities, and, if so, whether the website user accessed the website in a way
+that is “unauthorized” (e.g. see EF Cultural Travel BV v. Zefer Corp. 2003; Southwest Airlines Co. v.
+Farechase, Inc. 2004; EarthCam, Inc. v. OxBlue, Inc. 2017). Since then, other courts have generally
+required some affirmative action on the website user to become a party to the “Terms of Use” or “Terms of
+Service,” and, consequently, for such access to be deemed unauthorized (see e.g. Alan Ross Machinery
+Corp. v. Machinio Corp 2018). In 2016, the Ninth Circuit provided that violation of the “Terms of Use” or
+Accepted Manuscript
+“Terms of Service,” without more, cannot be the basis for liability under the CFAA (Facebook, Inc. v.
+Power Ventures, Inc. 2016).
+However, access to a website can be revoked and become unauthorized, when the website owner sends
+a cease and desist letter to a party crawling or scraping the website (Craigslist Inc. v. 3Taps Inc. 2013;
+Facebook, Inc. v. Power Ventures, Inc. 2016). Still, at least one court found that a cease and desist letter,
+without more, was insufficient to hold the Web Scraper liable under the CFAA (Ticketmaster L.L.C. v.
+Prestige Entertainment, Inc. 2018). In 2017, the District Court for the Northern District of California
+required a website owner to allow Web Scraping on its website, despite a cease and desist letter and an
+IP block, when the user was accessing publicly available data (hiQ Labs, Inc. v. LinkedIn Corp. 2017). In
+September of 2019, the Ninth Circuit Court of Appeals upheld the lower court’s decision in the hiQ case,
+noting that Web Scraping publicly available data likely does not violate the CFAA (hiQ Labs, Inc. v.
+LinkedIn Corp 2019).
+
+https://digitalcommons.murraystate.edu/cgi/viewcontent.cgi?article=1071&context=faculty
+
+
 ## Copyright:
 The data downloaded by this tool is copyrighted and is regularly registered with the US Library of Congress in the form of ExRx.net Offline Download. Do not modify, sell, or republish our content or tools in any way without the expressed written permission of ExRx.net. If you find other sites using our content, please feel free to contact us at feedback@exrx.net. We pass these matters to our copyright attorney who deals with these sorts of cases regularly.
 
