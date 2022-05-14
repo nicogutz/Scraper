@@ -11,6 +11,7 @@ noting that Web Scraping publicly available data likely does not violate the CFA
 LinkedIn Corp 2019).
 
 https://digitalcommons.murraystate.edu/cgi/viewcontent.cgi?article=1071&context=faculty
+
 https://lexing.be/de/le-scraping-est-il-legal/
 
 
